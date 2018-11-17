@@ -17,7 +17,7 @@ def decrypt(text):
 	
 plaintext = ""
 
-with open ("2.txt", "r") as myfile:
+with open ("10.txt", "r") as myfile:
     ciphertext = myfile.read().replace("\n","")
 
 ciphertext = base64.b64decode( ciphertext.rstrip()) # convert to ascii
