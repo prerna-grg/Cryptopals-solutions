@@ -74,7 +74,7 @@ def encryption_oracle(plaintext):
 	else:
 		print ("CBC encryption detected")
 
-with open ("3.txt", "r") as myfile:
+with open ("11.txt", "r") as myfile:
     plaintext = myfile.read().replace("\n","")
 
 plaintext = plaintext.replace("\n" , "")
